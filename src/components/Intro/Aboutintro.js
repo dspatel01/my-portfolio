@@ -16,7 +16,7 @@ const Aboutintro = () => {
 
                 <div className="textContent" data-aos="fade-right">
                     <h2>
-                        I have command of HTML, CSS, JavaScript and React js, which allows
+                        hello I have command of HTML, CSS, JavaScript and React js, which allows
                         me to create visually appealing and interactive user interface. I stay up
                         to date with the latest trends and best practices in front-end development
                         to ensure that my website are modern, responsive. and user-friendly.
