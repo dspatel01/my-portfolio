@@ -1,0 +1,248 @@
+.footerContainer {
+    width: 100%;
+    height: fit-content;
+    background: rgba(14, 91, 70, 0.944);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .footerItem {
+        width: 100%;
+        padding: 30px 0px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+
+        .footerItem1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: flex-start;
+
+            .footerTitle {
+                margin-left: 15px;
+                font-size: 1.5rem;
+                margin-bottom: 25px;
+                font-weight: 600;
+                font-family: serif;
+            }
+
+            .addressContent {
+                width: 300px;
+
+                p {
+                    padding: 0px 15px;
+                    letter-spacing: 0.5px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+            }
+        }
+
+        .footerItem2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 200px;
+            .footerTitle {
+                font-size: 1.5rem;
+                font-weight: 600;
+                font-family: serif;
+            }
+
+            .usefulLink {
+                ul {
+                    li {
+                        list-style: none;
+                        margin: 12px 0;
+                        font-size: 1.2rem;
+                        cursor: pointer;
+                        a{
+                            text-decoration: none;
+                        }
+                        a:hover{
+                            color:black;
+                            background-color: rgb(33, 216, 207);
+                        }
+                    }
+                }
+            }
+        }
+
+        .footerItem4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 200px;
+            .footerTitle {
+                font-size: 1.5rem;
+                margin-bottom: 10px;
+                font-weight: 600;
+                font-family: serif;
+            }
+
+            .usefulLink {
+                ul {
+                    li {
+                        list-style: none;
+                        margin: 20px 105px;
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+
+        .footerItem3 {
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .footerLogo {
+            h1 {
+                margin-left: 15px;
+                font-weight: 600;
+                font-family: serif;
+                border-bottom: 5px solid rgb(6, 255, 255);
+            }
+        }
+        .companyDescription {
+            width: 300px;
+
+            p {
+                margin: 20px 15px;
+                letter-spacing: 0.5px;
+                line-height: 20px;
+                font-weight: 400;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        }
+        .social-icons{
+            display: flex;
+            
+            i{
+                margin:5px 10px;
+                font-size: 2rem;
+                color: white;
+            }
+        }
+    }
+
+    .copyrightSection {
+        width: 100%;
+        display: flex;
+        color: white;
+        align-items: flex-end;
+        justify-content: center;
+        background-color: rgba(10, 10, 10, 0.753);
+
+        p {
+            padding: 15px;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footerContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footerContainer {
+        width: 100%;
+        .footerItem {
+            width: 100%;
+            padding: 30px 0px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            .footerItem1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: flex-start;
+                width: 300px;
+                .footerTitle {
+                    font-size: 1.5rem;
+                    margin-bottom: 35px;
+                    font-weight: 600;
+                }
+
+                .addressContent {
+                    width: 300px;
+
+                    p {
+                        letter-spacing: 0.5px;
+                        line-height: 20px;
+                        font-weight: 400;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    }
+                }
+            }
+            .footerItem2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+                width: 140px;
+               
+                .footerTitle {
+                    font-size: 1.5rem;
+                    margin-bottom: 10px;
+                    font-weight: 600;
+                    padding-left: 15px;
+                }
+
+                .usefulLink {
+                    ul {
+                        li {
+                            list-style: none;
+                            margin: 20px 0px;
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footerContainer {
+        width: 100%;
+        .footerItem {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            .footerItem2 {
+               width: 100%;
+               margin-right: 100px;
+               align-items: center;
+                .footerTitle {
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    margin-left: -35px;
+                }
+                .usefulLink {
+                    ul {
+                        margin-left: -90px;
+                        li {
+                            margin: 20px 0px;        
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "time" : "6 Month Training in React Js Development",
+        "company" :"Ducat  India Institute.",
+"role":"Training" 
+    },
+    {
+        "id": "2",
+        "time" : "  1 Year Experience in Web Development",
+        "company" :"Outbit Technologies Pvt Ltd.",
+        "role":"web Designer" 
+    },
+    {
+        "id": "3",
+        "time" :"8 Months Experience in School Erp Technical Support and Training",
+        "company":"Scientific Study's Pvt Ltd.",
+        "role":"support & tranning" 
+        
+    },
+    {
+        "id": "4",
+        "time" : "1 Year Experience in Tally Technical Support and implimentation",
+        "company":"Comhard Technologies Pvt Ltd.",
+        "role":"Support & implementing" 
+       
+    }
+
+]

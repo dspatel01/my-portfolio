@@ -1,0 +1,33 @@
+
+[
+    {
+        "id": "1",
+        "pname": " Weather App",
+        "pimg": "../images/project1.jpg",
+        "team": "Solo",
+        "reponsiblity": "frontend, backend from third party API",
+        "pdecription": " I created a Weather App for checking current weather information. This is a simple application for check weather info, you can simply type name of city which city weather you want to know. ",
+        "glink": "www.github.in",
+        "wlink":"www.dsp.com"
+    },
+    {
+        "id": "2",
+        "pname": "News Website",
+        "pimg": ".././images/project1.jpg",
+        "team": "Solo",
+        "reponsiblity": "frontend integration and backend from third party API",
+        "pdecription": " I created a daily news application for daily latest news whitch is come from a thrird party API",
+        "glink": "www.github.in",
+        "wlink":"www.dspweb.com"
+    },
+    {
+        "id": "3",
+        "pname": "My  Portfolio",
+        "pimg": "../images/project1.jpg",
+        "team": "Solo",
+        "reponsiblity": "Complete Project, Data is featching from local json file ",
+        "pdecription": "I created my Protfolio website to show my working Knowledge and Information about me ",
+        "glink": "www.github.in",
+        "wlink":"www.dspweb.com"
+    }
+]

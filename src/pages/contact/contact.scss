@@ -1,0 +1,258 @@
+.contactContainer {
+    width: 100%;
+    overflow: hidden;
+
+    .contact-cover {
+        position: relative;
+        width: 100%;
+        height: 275px;
+        background-image: url("../../images/depositphotos_74468913-stock-photo-contact-us-icons-on-cubes.jpg");
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .overlay {
+        position: absolute;
+        width: 100%;
+        top: 75px;
+        height: 300px;
+        height: 300px;
+        //  background-image: linear-gradient(180deg,rgba(26, 25, 25, 0.544),rgb(3, 0, 0));
+        background-image: linear-gradient(180deg, rgba(59, 202, 164, 0.337), rgb(1, 21, 18));
+
+        .contactTitle {
+            padding-top: 120px;
+            text-align: center;
+            font-size: 4rem;
+            font-weight: 600;
+            font-family: serif;
+            color: white;
+        }
+    }
+
+    .mainContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+        background-color: beige;
+        margin-top: 35px;
+        .contactUsContainer {
+            padding: 20px 0;
+            margin: 30px;
+            width: 95%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: fit-content;
+            background-image: linear-gradient(185deg, rgba(189, 189, 189, 0.651) 40%, hwb(160 3% 54% / 0.692) 90%);
+
+            .leftSide {
+                width: 400px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                i {
+                    color: rgb(33, 207, 207);
+                    font-size: 16rem;
+                    filter: drop-shadow(2px 4px 8px #5858586c);
+                    cursor: pointer;
+                }
+
+                i:hover {
+                    color: rgb(39, 224, 163);
+                    filter: drop-shadow(2px 4px 8px #949292d5);
+                }
+            }
+
+            .rightSide {
+                width: 600px;
+
+                .contactInputPageContainer {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                   
+
+                    .inputField {
+                        margin-top: 20px;
+                        width: 80%;
+                        height: 40px;
+                        border-radius: 5px;
+                        box-shadow: 0 15px 22px 5px rgba(128, 128, 128, 0.384);
+                        position: relative;
+                    
+
+                        input {
+                            width: 90%;
+                            height: 40px;
+                            border: none;
+                            outline: none;
+                            border-radius: 5px;
+                            margin-left: 35px;
+                            padding-left: 13px;
+                            font-size: 18px;
+                            color: rgba(36, 35, 35, 0.773);
+                          
+                        }
+                        textarea {
+                            width: 90%;
+                            padding-top: 10px;
+                            border: none;
+                            outline: none;
+                            border-radius: 5px;
+                            margin-left: 35px;
+                            padding-left: 13px;
+                            font-size: 18px;
+                           
+                        }
+
+                        i {
+                            position: absolute;
+                            color: rgb(38, 43, 41);
+                            font-size: 1.5rem;
+                            left: 5px;
+                            top: 7px;
+                            filter: drop-shadow(2px 4px 8px #3d3d3dd5);
+                        }
+                    }
+
+                    .btn {
+                        position: relative;
+                        top: 10px;
+                        left: 18px;
+                        margin-top: 80px;
+                        width: 74%;
+                        height: 40px;
+                        border-radius: 5px;
+                        box-shadow: 0 5px 7px 5px rgba(27, 27, 27, 0.61);
+
+                        // i {
+                        //     position: absolute;
+                        //     color: rgb(247, 252, 250);
+                        //     font-size: 1.2rem;
+                        //     top: 9px;
+                        //     filter: drop-shadow(1px 2px 1px #dbdadad5);
+                        // }
+
+                        button {
+                            width: 100%;
+                            height: 40px;
+                            border-radius: 5px;
+                            font-size: 1.2rem;
+                            border: none;
+                            outline: none;
+                            background-color: rgba(29, 28, 28, 0.904);
+                            color: white;
+                            font-weight: 600;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1024px) {
+    .contactContainer {
+        width: 100%;
+        .mainContainer {
+            .contactUsContainer {
+                .leftSide {
+                    width: 400px;
+                    i {
+                        padding: 50px;
+                        font-size: 20rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .contactContainer {
+        width: 100%;
+        .mainContainer {
+            .contactUsContainer {
+                .leftSide {
+                    width: 400px;
+                    i {
+                        padding: 20px;
+                        font-size: 16rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contactContainer {
+        width: 100%;
+        .mainContainer {
+            .contactUsContainer {
+                height: fit-content;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                padding: 20px 0 30px 0;
+                .leftSide {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 90%;
+                    height: 370px;
+                    align-items: center;
+                    i {
+                        padding: 20px;
+                        font-size: 18rem;
+                    }
+                }
+                .rightSide {
+                    width: 100%;
+
+                    .contactInputPageContainer {
+                        .inputField {
+                            margin-top: 20px;
+                            width: 85%;
+                            height: 50px;
+                            margin-right: 35px;
+                            input {
+                                width: 90%;
+                                height: 50px;
+                                margin-left: 45px;
+                                padding-left: 15px;
+                                font-size: 22px;
+                            }
+                            textarea {
+                                width: 90%;
+                                margin-left: 45px;
+                                padding-left: 15px;
+                                font-size: 20px;
+                            }
+
+                            i {
+                                position: absolute;
+                                color: rgb(38, 43, 41);
+                                font-size: 1.5rem;
+                                left: 10px;
+                                top: 15px;
+                                filter: drop-shadow(2px 4px 8px #949292d5);
+                            }
+                        }
+
+                        .btn {
+                            top: 10px;
+                            left: 17px;
+                            margin-top: 80px;
+                            width: 80%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

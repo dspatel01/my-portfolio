@@ -1,0 +1,178 @@
+.navbarContainer {
+    top: 0;
+    position: sticky;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    z-index: 1;
+}
+
+.logoSection {
+    text-align: center;
+    margin-top: 5px;
+    width: 70px;
+    height: 45px;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 1.9rem;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.logoSection a {
+    cursor: pointer;
+    font-family: serif;
+    text-shadow: 2px 2px 2px rgba(11, 10, 10, 0.5);
+    text-decoration: none;
+    color: white;
+}
+
+.circule {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: rgba(69, 228, 167, 0.476);
+    z-index: -2;
+}
+
+.circule1 {
+    position: absolute;
+    top: 0px;
+    left: 6px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: rgba(69, 228, 167, 0.491);
+    z-index: -1;
+}
+
+.navList ul {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navList ul li {
+    padding: 15px;
+    margin-left: 2px;
+
+}
+
+ul li a {
+    padding: 10px;
+    font-size: 1.1rem;
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    background-color: rgb(0, 87, 58);
+    margin: 1px;
+}
+
+.navList ul li a::before {
+    content: "";
+    top: -5px;
+    left: 0px;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    border-bottom: 3px solid rgba(8, 202, 151, 0.736);
+    transition: 0.4s linear;
+}
+
+.navList ul li a:hover::before {
+    width: 100%;
+}
+
+.mobile-Menu button {
+    display: none;
+}
+
+.navListMobile ul {
+    display: none;
+}
+
+@media screen and (max-width:780px) {
+    .logoSection {
+        margin-left: -30px;
+    }
+
+    .navList ul {
+        display: none;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .mobile-Menu {
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+        margin-right: -30px;
+        
+    }
+
+    .mobile-Menu button:hover {
+        position: relative;
+        top: 0;
+        left: 0px;
+        width: 40px;
+        border-radius: 5px;
+        box-shadow: 0px 2px 10px 1px rgba(240, 243, 242, 0.398);
+    }
+
+    .mobile-Menu button {
+        display: block;
+        font-size: 1.5rem;
+        background-color: black;
+        color: white;
+        margin: 0;
+        border: none;
+    }
+
+    .navListMobile {
+        position: absolute;
+        width: 100%;
+        right: 0;
+        z-index: 100;
+    }
+
+    .navListMobile ul {
+        transition: 1s;
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: 25px;
+        background-color: rgba(5, 4, 4, 0.986);
+        text-align: center;
+        padding: 10px 0;
+
+    }
+
+    .navListMobile ul li {
+        padding: 30px 0;
+
+    }
+
+    .navListMobile ul li a {
+        cursor: pointer;
+        position: relative;
+        font-weight: 600;
+        font-size: 1.8rem;
+        display: block;
+        padding: 5px 0;
+    }
+}

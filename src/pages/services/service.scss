@@ -1,0 +1,255 @@
+.serviceContainer {
+    width: 100%;
+    padding-bottom: 10px;
+    overflow: hidden;
+
+    .service-cover {
+        position: relative;
+        width: 100%;
+        height: 275px;
+        background-image: url("../../images/istockphoto-1059548978-612x612.jpg");
+        object-fit:inherit;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .overlay {
+        position: absolute;
+        width: 100%;
+        top: 75px;
+        height: 300px;
+        background-image: linear-gradient(180deg, rgba(59, 202, 164, 0.337), rgb(1, 21, 18));
+        // background-image: linear-gradient(180deg,rgba(26, 25, 25, 0.544),rgb(3, 0, 0));
+        color: white;
+
+        .serviceTitle {
+            padding-top: 120px;
+            text-align: center;
+            font-size: 4rem;
+            font-weight: 600;
+            font-family: serif;
+            color: white;
+        }
+    }
+
+    .serviceTitle {
+        padding: 20px 0;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: serif;
+    }
+
+    .serviceCardContainer {
+        width: 100%;
+        height: fit-content;
+        padding: 75px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: beige;
+
+        .serviceCard {
+            width: 85%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            
+            .cardItem {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                margin: 50px 0;
+                align-items: center;
+                width: 300px;
+                height: 250px;
+                border: none;
+                outline: none;
+                border-radius: 15px;
+                color: rgb(35, 45, 45);
+                background-color: white;
+                box-shadow: 10px 15px 22px 1px rgba(212, 210, 210, 0.144), 15px 20px 22px 1px rgba(25, 2, 2, 0.165);
+
+                .cardContainer {
+                    .cardImage {
+                        display: flex;
+                        align-items: center;
+                        position: relative;
+                        border-radius: 50%;
+                        border: 1px solid rgba(0, 0, 0, 0.153);
+                        width: 100px;
+                        height: 100px;
+                        box-shadow: 0px 7px 22px 2px rgba(128, 128, 128, 0.174);
+                        i {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-size: 3.5rem;
+                            width: 100%;
+                            filter: drop-shadow(5px 3px 1px #50545334);
+                        }
+                        i:hover {
+                            transition: 0.5s;
+                            transform: scalex(45deg);
+                        }
+                    }
+                }
+
+                .cardContent {
+                    padding: 0 20px;
+                    h3 {
+                        text-align: center;
+                    }
+                    p {
+                        margin-top: 15px;
+                        font-weight: 100;
+                        color: gray;
+                        font-size: 16px;
+                        letter-spacing: 0.5px;
+                        line-height: 23px;
+                        text-align: start;
+                    }
+                }
+            }
+            .cardItem:hover {
+                scale: 1.3;
+                transition: 0.5s;
+                background-color: rgb(12, 212, 149);
+                color: #fff;
+                i {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .service-container {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 25px 10px;
+
+        .service-item {
+            display: flex;
+            width: 250px;
+            height: 45vh;
+            border-radius: 35% 0px 40% 0;
+            padding: 20px;
+            box-shadow: 0px 12px 12px 2px rgba(0, 0, 0, 0.241),
+            -10px 0px 12px 2px rgba(0, 0, 0, 0.063);
+            p {
+                margin-top: 40px    ;
+                letter-spacing: 1px;
+                color: #555;
+                text-align: center;
+                font-family: serif;
+                font-size: 1.1rem;
+                line-height: 20px;
+                letter-spacing: 1px;
+                word-break: keep-all;
+                font-weight: 100;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .serviceContainer {
+        width: 100%;
+        .serviceCardContainer {
+            width: 100%;
+            height: fit-content;
+            .serviceCard {
+                width: 95%;
+            }
+        }
+        .service-container {
+            width: 100%;
+            height: fit-content;  
+            margin: 35px 0;       
+            .service-item {
+                display: flex;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .serviceContainer {
+        width: 100%;
+        .serviceCardContainer {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            height: fit-content;
+            .serviceCard {
+                width: 100%;
+                .cardItem {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    margin: 50px 0;
+                    align-items: center;
+                    width: 240px;
+                    height: 250px;
+                    border: none;
+                    outline: none;
+                    border-radius: 15px;
+                    color: rgb(35, 45, 45);
+                    background-color: white;
+                    box-shadow: 0 15px 22px 5px rgba(128, 128, 128, 0.25);
+                }
+            }
+        }
+        .service-container {
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+    .serviceContainer {
+        width: 100%;
+        .serviceCardContainer {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            height: fit-content;
+            flex-wrap: wrap;
+
+            .serviceCard {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+
+                .cardItem {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-around;
+                    margin: 10px 0;
+                    width: 80%;
+                    height: 250px;
+
+                    .cardContainer {
+                        .cardImage {
+                            position: relative;
+                            top: 0;
+                            margin: 0px 10px;
+                            i {
+                                font-size: 3.5rem;
+                                filter: drop-shadow(5px 3px 1px #50545334);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .service-container {
+            width: 100%;
+           
+            .service-item {
+                width: 380px;
+            }
+        }
+    }
+}
