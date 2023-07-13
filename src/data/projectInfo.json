@@ -7,8 +7,8 @@
         "team": "Solo",
         "reponsiblity": "frontend, backend from third party API",
         "pdecription": " I created a Weather App for checking current weather information. This is a simple application for check weather info, you can simply type name of city which city weather you want to know. ",
-        "glink": "www.github.in",
-        "wlink":"www.dsp.com"
+        "glink": "www.github.in"
+        
     },
     {
         "id": "2",
@@ -27,7 +27,7 @@
         "team": "Solo",
         "reponsiblity": "Complete Project, Data is featching from local json file ",
         "pdecription": "I created my Protfolio website to show my working Knowledge and Information about me ",
-        "glink": "www.github.in",
-        "wlink":"www.dspweb.com"
+        "glink": "https://github.com/dspatel01",
+        "wlink":"https://dspatel01.github.io/myportfolio"
     }
 ]
