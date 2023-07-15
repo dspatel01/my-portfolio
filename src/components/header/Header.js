@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './header.scss';
 // import pic from '../../images/2-removebg-preview.png'
+import headerPic from '../../images/8401.jpg'
 // import resume from '../../extraFile/dileepspatel-070723.pdf'
 // import resume1 from '../../dileepspatel-070723.pdf'
 import AOS from 'aos';
@@ -38,7 +39,7 @@ const Header = () => {
             <p>I am react frontend developer</p>
           </div>
           <div className="right">
-            {/* <img src={pic} alt="" /> */}
+            <img src={headerPic} alt="" />
           </div>
         </div>
       </div>

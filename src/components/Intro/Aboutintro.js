@@ -3,7 +3,7 @@ import aboutImage from '../../images/2.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload} from '@fortawesome/free-solid-svg-icons'
 import './intro.scss'
-const resume_PDF = 'http://localhost:3000/dileepspatel-070723.pdf'
+const resume_PDF = 'https://github.com/dspatel01/myportfolio/blob/main/public/dileepspatel-070723.pdf'
 
 
 const Aboutintro = () => {

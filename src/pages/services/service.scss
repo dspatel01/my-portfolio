@@ -121,37 +121,37 @@
             }
         }
     }
-    .service-container {
-        width: 100%;
-        height: fit-content;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        padding: 25px 10px;
+    // .service-container {
+    //     width: 100%;
+    //     height: fit-content;
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: space-around;
+    //     flex-wrap: wrap;
+    //     padding: 25px 10px;
 
-        .service-item {
-            display: flex;
-            width: 250px;
-            height: 45vh;
-            border-radius: 35% 0px 40% 0;
-            padding: 20px;
-            box-shadow: 0px 12px 12px 2px rgba(0, 0, 0, 0.241),
-            -10px 0px 12px 2px rgba(0, 0, 0, 0.063);
-            p {
-                margin-top: 40px    ;
-                letter-spacing: 1px;
-                color: #555;
-                text-align: center;
-                font-family: serif;
-                font-size: 1.1rem;
-                line-height: 20px;
-                letter-spacing: 1px;
-                word-break: keep-all;
-                font-weight: 100;
-            }
-        }
-    }
+    //     .service-item {
+    //         display: flex;
+    //         width: 250px;
+    //         height: 45vh;
+    //         border-radius: 35% 0px 40% 0;
+    //         padding: 20px;
+    //         box-shadow: 0px 12px 12px 2px rgba(0, 0, 0, 0.241),
+    //         -10px 0px 12px 2px rgba(0, 0, 0, 0.063);
+    //         p {
+    //             margin-top: 40px    ;
+    //             letter-spacing: 1px;
+    //             color: #555;
+    //             text-align: center;
+    //             font-family: serif;
+    //             font-size: 1.1rem;
+    //             line-height: 20px;
+    //             letter-spacing: 1px;
+    //             word-break: keep-all;
+    //             font-weight: 100;
+    //         }
+    //     }
+    // }
 }
 
 @media screen and (min-width: 1024px) {
@@ -244,12 +244,12 @@
                 }
             }
         }
-        .service-container {
-            width: 100%;
+        // .service-container {
            
-            .service-item {
-                width: 380px;
-            }
-        }
+           
+        //     .service-item {
+                
+        //     }
+        // }
     }
 }

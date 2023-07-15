@@ -11,6 +11,7 @@
     padding: 30px 0;
 
     .image {
+       
         position: relative;
         width: 352px;
         height: 400px;
@@ -30,8 +31,10 @@
         height: 350px;
         content: "";
         background:linear-gradient(rgba(238, 234, 234, 0.068),rgba(14, 13, 13, 0.349));
+       
     }
     .textContent {
+       
         position: relative;
         width: 50%;
         height: fit-content;

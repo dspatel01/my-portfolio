@@ -77,7 +77,7 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <h3 style={{marginTop:"20px", textAlign: 'center', padding: '5px', fontSize: '32px', fontFamily: 'monospace', textDecoration: 'underline' }}>
+        {/* <h3 style={{marginTop:"20px", textAlign: 'center', padding: '5px', fontSize: '32px', fontFamily: 'monospace', textDecoration: 'underline' }}>
           Kye Feature's
         </h3>
         <div className="service-container">
@@ -90,7 +90,7 @@ const Service = () => {
             )
           })
         }
-        </div>
+        </div> */}
       
       </div>
     </>
