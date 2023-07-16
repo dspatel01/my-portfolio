@@ -17,7 +17,7 @@ function App() {
       <TopDetails />
       <Navbar />
       <Routes>
-        <Route exact path="/myportfolio" element={<Home />} />
+        <Route exact path="/home" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/service" element={<Service />} />
         <Route exact path="/gallery" element={<Gallery />} />
