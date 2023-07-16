@@ -40,7 +40,7 @@ const handleSinglePage = () =>{
                     <div className="img-overlay" onClick={handleSinglePage}>
                     </div>
                     <div className="link">
-                      <h4>Website Link
+                      <h4>
                         <a href="/">{item.wlink}</a>
                       </h4>
                     </div>
