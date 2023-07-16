@@ -77,20 +77,20 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <h3 style={{marginTop:"20px", textAlign: 'center', padding: '5px', fontSize: '32px', fontFamily: 'monospace', textDecoration: 'underline' }}>
-          Kye Feature's
-        </h3>
-        <div className="service-container">
-          {
-          data.map((item, i) => {
-            return (
-              <div key={i}>
-                <div className='service-item' data-aos="flip-left"><p>{item.value}</p></div><br />
-              </div>
-            )
-          })
-        }
-        </div>
+        // <h3 style={{marginTop:"20px", textAlign: 'center', padding: '5px', fontSize: '32px', fontFamily: 'monospace', textDecoration: 'underline' }}>
+        //   Kye Feature's
+        // </h3>
+        // <div className="service-container">
+        //   {
+        //   data.map((item, i) => {
+        //     return (
+        //       <div key={i}>
+        //         <div className='service-item' data-aos="flip-left"><p>{item.value}</p></div><br />
+        //       </div>
+        //     )
+        //   })
+        // }
+        // </div>
       
       </div>
     </>
