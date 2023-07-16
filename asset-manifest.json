@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.52d884aa.css",
-    "main.js": "/myportfolio/static/js/main.05b5fa8d.js",
-    "static/media/pexels-tranmautritam-69432.jpg": "/myportfolio/static/media/pexels-tranmautritam-69432.4b0b04ad6441e91c0deb.jpg",
-    "static/media/pexels-ketut-subiyanto-4559555.jpg": "/myportfolio/static/media/pexels-ketut-subiyanto-4559555.57f8cb03add0fd6e0461.jpg",
-    "static/media/8401.jpg": "/myportfolio/static/media/8401.16ad47facee9bf482e8e.jpg",
-    "static/media/project1.jpg": "/myportfolio/static/media/project1.aed0c475e08f3b97c6ff.jpg",
-    "static/media/Coding-workshop.png": "/myportfolio/static/media/Coding-workshop.9e8202d38e052ca74a66.png",
-    "static/media/2.jpg": "/myportfolio/static/media/2.ddf5e7e28bf3834511cf.jpg",
-    "static/media/istockphoto-1059548978-612x612.jpg": "/myportfolio/static/media/istockphoto-1059548978-612x612.aa7bbef4426f7acf103f.jpg",
-    "static/media/depositphotos_74468913-stock-photo-contact-us-icons-on-cubes.jpg": "/myportfolio/static/media/depositphotos_74468913-stock-photo-contact-us-icons-on-cubes.caea327688da76866dd6.jpg",
-    "index.html": "/myportfolio/index.html",
-    "main.52d884aa.css.map": "/myportfolio/static/css/main.52d884aa.css.map",
-    "main.05b5fa8d.js.map": "/myportfolio/static/js/main.05b5fa8d.js.map"
+    "main.css": "/myportfolio/home/static/css/main.86e61ac0.css",
+    "main.js": "/myportfolio/home/static/js/main.77e15741.js",
+    "static/media/pexels-tranmautritam-69432.jpg": "/myportfolio/home/static/media/pexels-tranmautritam-69432.4b0b04ad6441e91c0deb.jpg",
+    "static/media/pexels-ketut-subiyanto-4559555.jpg": "/myportfolio/home/static/media/pexels-ketut-subiyanto-4559555.57f8cb03add0fd6e0461.jpg",
+    "static/media/8401.jpg": "/myportfolio/home/static/media/8401.16ad47facee9bf482e8e.jpg",
+    "static/media/project1.jpg": "/myportfolio/home/static/media/project1.aed0c475e08f3b97c6ff.jpg",
+    "static/media/Coding-workshop.png": "/myportfolio/home/static/media/Coding-workshop.9e8202d38e052ca74a66.png",
+    "static/media/2.jpg": "/myportfolio/home/static/media/2.ddf5e7e28bf3834511cf.jpg",
+    "static/media/istockphoto-1059548978-612x612.jpg": "/myportfolio/home/static/media/istockphoto-1059548978-612x612.aa7bbef4426f7acf103f.jpg",
+    "static/media/depositphotos_74468913-stock-photo-contact-us-icons-on-cubes.jpg": "/myportfolio/home/static/media/depositphotos_74468913-stock-photo-contact-us-icons-on-cubes.caea327688da76866dd6.jpg",
+    "index.html": "/myportfolio/home/index.html",
+    "main.86e61ac0.css.map": "/myportfolio/home/static/css/main.86e61ac0.css.map",
+    "main.77e15741.js.map": "/myportfolio/home/static/js/main.77e15741.js.map"
   },
   "entrypoints": [
-    "static/css/main.52d884aa.css",
-    "static/js/main.05b5fa8d.js"
+    "static/css/main.86e61ac0.css",
+    "static/js/main.77e15741.js"
   ]
 }
