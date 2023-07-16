@@ -2,8 +2,8 @@
    
     width: 100%;
     box-sizing: border-box;
-    background-color: aqua;
-   
+    background-color: rgb(175, 238, 238);
+   padding: 25px 0;
     h3 {
         margin-top: 25px;
         
@@ -125,6 +125,7 @@ font-size: 1.2rem;
                 margin-top: 30px;
                 width: 90%;
                 h2 {
+                    font-size: 5vmin;
                     padding-bottom: 30px;
                     letter-spacing: 1px;
                 }
@@ -133,6 +134,7 @@ font-size: 1.2rem;
                     font-size: 1.3rem;
                     line-height: 30px;
                     letter-spacing: 1px;
+                    font-size: 3vmin;
                 }
             }
         }

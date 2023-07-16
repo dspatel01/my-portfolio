@@ -11,9 +11,6 @@ const Home = () => {
     <>
       <Header />
       <div className="home-container">
-        <h3 style={{ textAlign: 'center', padding: '5px', fontSize: '32px', fontFamily: 'monospace', textDecoration: 'underline',paddingTop:"30px" }}>
-          Introduction
-        </h3>
         <div className="intro-section">
 
           <div className="left">
