@@ -1,15 +1,12 @@
 .home-container {
-   
     width: 100%;
     box-sizing: border-box;
     background-color: rgb(175, 238, 238);
-   padding: 25px 0;
+    padding: 25px 0;
     h3 {
         margin-top: 25px;
-        
     }
     .intro-section {
-       
         display: flex;
         width: 100%;
         height: fit-content;
@@ -44,37 +41,34 @@
             }
         }
     }
-    
 }
-.patern{
-        display: flex;
-        justify-content: center;
-        margin: 60px 0;
+.patern {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+    border-radius: 50%;
+
+    .box {
+        width: 15px;
+        height: 15px;
+        margin-left: 10px;
+        background-color: rgb(161, 244, 255);
         border-radius: 50%;
-        
-        .box{
-            width: 15px;
-            height: 15px;
-            margin-left: 10px;
-            background-color: rgb(161, 244, 255);
-            border-radius: 50%;
-           
-        }
-        .box1{
-            background-color: rgb(3, 211, 211);
-        }
-        .box2{
-            background-color: rgb(10, 217, 231);
-        }
-        .box::after{
-            content: "";
-            position: absolute;
-            width: 15px;
-            height: 15px;
-            border-radius: 50%;           
-            box-shadow: 5px 10px 12px rgba(128, 128, 128, 0.644);
-        }
-        
+    }
+    .box1 {
+        background-color: rgb(3, 211, 211);
+    }
+    .box2 {
+        background-color: rgb(10, 217, 231);
+    }
+    .box::after {
+        content: "";
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        box-shadow: 5px 10px 12px rgba(128, 128, 128, 0.644);
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .home-container {
@@ -97,8 +91,8 @@
                     letter-spacing: 1px;
                     font-size: 1.3rem;
                 }
-                p{
-font-size: 1.2rem;
+                p {
+                    font-size: 1.2rem;
                 }
             }
         }
@@ -107,7 +101,8 @@ font-size: 1.2rem;
 @media screen and (max-width: 780px) {
     .home-container {
         width: 100%;
-
+        height: fit-content;
+        padding: 5px 0 15px 0;
         h3 {
             margin-top: 25px;
         }
@@ -124,19 +119,17 @@ font-size: 1.2rem;
             .right {
                 margin-top: 30px;
                 width: 90%;
-                height: fit-content;
-                padding: 5px 0 15px 0;
+
                 h2 {
                     font-size: 5vmin;
                     padding-bottom: 30px;
                     letter-spacing: 1px;
                 }
                 p {
-                    font-family: serif;
-                    font-size: 1.3rem;
-                    line-height: 25px;
+                    font-family: serif;              
+                    line-height: 27px;
                     letter-spacing: 1px;
-                    font-size: 6vmin;
+                    font-size: 22px;
                 }
             }
         }
