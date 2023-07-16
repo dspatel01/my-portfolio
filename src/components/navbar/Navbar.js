@@ -21,7 +21,7 @@ const Navbar = () => {
         <>
             <div className="navbarContainer">
                 <div className="logoSection">
-                    <Link to="/home" >Dsp</Link>
+                    <Link to="/" >Dsp</Link>
                     <div className='circule'></div>
                     <div className='circule1'></div>
                 </div>
