@@ -65,13 +65,15 @@
             }
             .right {
                 max-width: 100%;
-                height: 380px;
+                height: 340px;
                 margin-right: 1px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
 
                 img {
-                    width: 100%;
-
-                    height: 380px;
+                    width: 90%;
+                    height: 340px;
                 }
             }
         }

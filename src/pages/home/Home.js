@@ -17,7 +17,7 @@ const Home = () => {
             <img src={two} alt="" />
           </div>
           <div className="right">
-            <h2>Welcome to my portfolio website!</h2>
+            <h2>Welcome to my portfolio</h2>
             {
               data.map((item, i) => {
                 return (
@@ -27,14 +27,6 @@ const Home = () => {
                 )
               })
             }
-            <p>
-              {/* I am thrilled to introduce myself as a passionate and dedicatd website developer,
-              specializing in creating stunnuing and functional website. If you are a fresh talent
-              looking to make your mark in the word of website developement, you have come to the 
-              right place. with a keen eye for design, a love for coding, and a commitment to 
-              delivering high quality result,I am eager to showcase me skills and experties. */}
-
-            </p>
           </div>
         </div>
       </div>
@@ -46,8 +38,6 @@ const Home = () => {
             <div className="box box1"></div>
             <div className="box"></div>
           </div>
-
-      {/* <AboutIntro /> */}
     </>
   )
 }

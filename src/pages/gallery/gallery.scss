@@ -141,5 +141,28 @@
 @media (max-width: 768px) {
     .project-container {
         width: 100%;
+     
+        .project-card {
+            .right {
+                margin-top: 30px;
+                width: 350px;
+                h3 {
+                    color: rgb(117, 239, 216);
+                    padding-top: 5px;
+                    font-family: Georgia, "Times New Roman", Times, serif;
+                    font-size: 1.5rem;
+                    
+                }
+                .pwork {
+                    padding: 5px;
+                    line-height: 25px;
+                    letter-spacing: 1px;
+                    color: rgb(255, 255, 255);
+                    font-family: serif;
+                    font-size: 1rem;
+
+                }
+            }
+        }
     }
 }

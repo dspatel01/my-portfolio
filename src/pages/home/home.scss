@@ -45,7 +45,7 @@
 .patern {
     display: flex;
     justify-content: center;
-    margin: 60px 0;
+    margin: 30px 0;
     border-radius: 50%;
 
     .box {
@@ -102,9 +102,9 @@
     .home-container {
         width: 100%;
         height: fit-content;
-        padding: 5px 0 15px 0;
-        h3 {
-            margin-top: 25px;
+        padding: 0px 0 0px 0;
+        h2 {
+            margin-top: 2px;
         }
         .intro-section {
             width: 100%;
@@ -121,7 +121,7 @@
                 width: 90%;
 
                 h2 {
-                    font-size: 5vmin;
+                    font-size: 6vmin;
                     padding-bottom: 30px;
                     letter-spacing: 1px;
                 }
@@ -129,7 +129,7 @@
                     font-family: serif;              
                     line-height: 27px;
                     letter-spacing: 1px;
-                    font-size: 22px;
+                    // font-size: 18px;
                 }
             }
         }
