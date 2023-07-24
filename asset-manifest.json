@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.c4d80eab.css",
-    "main.js": "/myportfolio/static/js/main.8e8695f0.js",
+    "main.js": "/myportfolio/static/js/main.dce46429.js",
     "static/media/pexels-tranmautritam-69432.jpg": "/myportfolio/static/media/pexels-tranmautritam-69432.4b0b04ad6441e91c0deb.jpg",
     "static/media/pexels-ketut-subiyanto-4559555.jpg": "/myportfolio/static/media/pexels-ketut-subiyanto-4559555.57f8cb03add0fd6e0461.jpg",
     "static/media/8401.jpg": "/myportfolio/static/media/8401.16ad47facee9bf482e8e.jpg",
@@ -12,10 +12,10 @@
     "static/media/depositphotos_74468913-stock-photo-contact-us-icons-on-cubes.jpg": "/myportfolio/static/media/depositphotos_74468913-stock-photo-contact-us-icons-on-cubes.caea327688da76866dd6.jpg",
     "index.html": "/myportfolio/index.html",
     "main.c4d80eab.css.map": "/myportfolio/static/css/main.c4d80eab.css.map",
-    "main.8e8695f0.js.map": "/myportfolio/static/js/main.8e8695f0.js.map"
+    "main.dce46429.js.map": "/myportfolio/static/js/main.dce46429.js.map"
   },
   "entrypoints": [
     "static/css/main.c4d80eab.css",
-    "static/js/main.8e8695f0.js"
+    "static/js/main.dce46429.js"
   ]
 }
