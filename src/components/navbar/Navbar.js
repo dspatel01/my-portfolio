@@ -21,7 +21,7 @@ const Navbar = () => {
         <>
             <div className="navbarContainer">
                 <div className="logoSection">
-                    <Link to="/" >Dsp</Link>
+                    <Link to="/home" >Dsp</Link>
                     <div className='circule'></div>
                     <div className='circule1'></div>
                 </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
                 <div className={menuToggle ? "navListMobile" : "navList "}>
                     <ul>
                         <li className={active === 1 ? " active" :"navItems"} onClick={()=>handleActiveMenu(1)}>
-                            <Link to="/" onClick={() => setMenuToggle(false)}>Home</Link>
+                            <Link to="/home" onClick={() => setMenuToggle(false)}>Home</Link>
                         </li>
                         <li className={active === 2 ? "active" :"navItems"} onClick={()=>handleActiveMenu(2)}>
                             <Link to='/about' onClick={() => setMenuToggle(false)} >About</Link>
