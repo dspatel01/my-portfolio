@@ -28,7 +28,7 @@ const About = () => {
         </div>
         <div className='overlay'>
           <div className="aboutTilte" data-aos="fade-up" data-aos-anchor-placement="top-center"  >
-            About Me
+            Who i am
           </div>
         </div>
       </div>
