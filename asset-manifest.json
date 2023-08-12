@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.6cfc9450.css",
-    "main.js": "/my-portfolio/static/js/main.77581ad7.js",
+    "main.css": "/my-portfolio/static/css/main.26b5b3f0.css",
+    "main.js": "/my-portfolio/static/js/main.d446028e.js",
     "static/media/pexels-tranmautritam-69432.jpg": "/my-portfolio/static/media/pexels-tranmautritam-69432.4b0b04ad6441e91c0deb.jpg",
     "static/media/pexels-ketut-subiyanto-4559555.jpg": "/my-portfolio/static/media/pexels-ketut-subiyanto-4559555.57f8cb03add0fd6e0461.jpg",
     "static/media/8401.jpg": "/my-portfolio/static/media/8401.16ad47facee9bf482e8e.jpg",
@@ -11,11 +11,11 @@
     "static/media/istockphoto-1059548978-612x612.jpg": "/my-portfolio/static/media/istockphoto-1059548978-612x612.aa7bbef4426f7acf103f.jpg",
     "static/media/depositphotos_74468913-stock-photo-contact-us-icons-on-cubes.jpg": "/my-portfolio/static/media/depositphotos_74468913-stock-photo-contact-us-icons-on-cubes.caea327688da76866dd6.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.6cfc9450.css.map": "/my-portfolio/static/css/main.6cfc9450.css.map",
-    "main.77581ad7.js.map": "/my-portfolio/static/js/main.77581ad7.js.map"
+    "main.26b5b3f0.css.map": "/my-portfolio/static/css/main.26b5b3f0.css.map",
+    "main.d446028e.js.map": "/my-portfolio/static/js/main.d446028e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cfc9450.css",
-    "static/js/main.77581ad7.js"
+    "static/css/main.26b5b3f0.css",
+    "static/js/main.d446028e.js"
   ]
 }
