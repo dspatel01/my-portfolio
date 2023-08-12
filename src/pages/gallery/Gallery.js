@@ -2,6 +2,7 @@ import React,{useEffect} from 'react'
 import data from "../../data/projectInfo.json"
 import './gallery.scss'
 import img1 from '../../images/project1.jpg'
+
 import AOS from 'aos'
 import "aos/dist/aos.css"
 

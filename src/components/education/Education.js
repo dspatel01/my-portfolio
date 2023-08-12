@@ -17,8 +17,8 @@ const Education = ({value}) => {
                 <div className="left-side" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <img src={Image} alt="" />
                 </div>
-                <div className="right-side" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <div className="education-card" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
+                <div className="right-side" >
+                    <div className="education-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                         <div className="education-title">
                             React Js Traning
                         </div>
@@ -26,7 +26,7 @@ const Education = ({value}) => {
                             Ducat Noida Uttar Pradesh
                         </div>
                         <div className="description">
-                            <p>i have done 6 Month Traning in react j </p>
+                            <p>i have done 6 Month Traning in react js </p>
                         </div>
                     </div>
 
@@ -42,7 +42,7 @@ const Education = ({value}) => {
                         </div>
                     </div>
 
-                    <div className="education-card" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
+                    <div className="education-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                         <div className="education-title">
                             BCA (Bachelor's Of Computer Application)
                         </div>

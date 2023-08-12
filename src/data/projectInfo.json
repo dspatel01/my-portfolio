@@ -23,11 +23,11 @@
     {
         "id": "3",
         "pname": "My  Portfolio",
-        "pimg": "../images/project1.jpg",
+        "pimg": "../images/portfolio.jpg",
         "team": "Solo",
         "reponsiblity": "Complete Project, Data is featching from local json file ",
         "pdecription": "I created my Protfolio website to show my working Knowledge and Information about me ",
         "glink": "https://github.com/dspatel01",
-        "wlink":"https://dspatel01.github.io/myportfolio"
+        "wlink":"https://dspatel01.github.io/my-portfolio/"
     }
 ]
